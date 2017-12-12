@@ -45,7 +45,7 @@ function setup() {
   createCanvas(640,429);
 
   
- img = loadImage('street.jpg')
+ img = loadImage('street.jpg');
   
   victim1 = new Victim("east",1,color(0));
   victim2 = new Victim("west",2,color(0));
