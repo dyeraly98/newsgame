@@ -24,6 +24,8 @@ var i = 0;
 var i2 = 0;
 var j = 0;
 
+var time1=10000;
+
 
 var victim1hit= false;
 var victim2hit= false;
@@ -72,6 +74,11 @@ function draw() {
   background(img, 0,0);
   noStroke;
 
+ fill (255,255,255);
+   textSize(15);
+   text("Move with left and right arrow keys.", 10, 40);
+   text("Shoot by clicking mouse.", 10,65);
+  
 
   if(t < height) {
     t--;
